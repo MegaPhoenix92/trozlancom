@@ -1,0 +1,93 @@
+ceo can login or perform admin and user
+admin can login or perform user (admin has priviledge and permission assigned by ceo role or admin who has higer level)
+user can manage the other use in company level (user has priviledge and permission assigned by ceo / admin /user )
+
+RJO Networks Web Application
+
+=== Core Architecture ===
+
+1. Frontend Framework
+   ├── Next.js 12
+   ├── React 18
+   ├── TypeScript 4.9
+   └── IBM Carbon Design System
+       ├── Carbon Components
+       ├── Carbon Grid
+       ├── Carbon Icons
+       └── Carbon Theme
+
+2. Role-Based Access
+   ├── Admin Interface
+   │   ├── User Management
+   │   ├── System Configuration
+   │   └── Analytics Dashboard
+   ├── CEO Portal
+   │   ├── Executive Metrics
+   │   ├── KPI Tracking
+   │   └── Report Generation
+   └── User Dashboard
+       ├── Profile Management
+       ├── Operations Panel
+       └── Workflow Tools
+
+3. Public Website
+   ├── Landing Page
+   │   ├── Hero Section
+   │   └── Feature Highlights
+   ├── Product Catalog
+   │   ├── Product Grid
+   │   └── Search/Filter
+   └── Company Information
+       ├── About Us
+       └── Contact
+
+=== Technical Implementation ===
+
+1. UI/UX Design
+   ├── Carbon Design Language
+   ├── Responsive Layouts
+   ├── Dark/Light Themes
+   └── Accessibility Standards
+
+2. Backend Integration
+   ├── RESTful API
+   ├── Authentication (JWT)
+   ├── PostgreSQL Database
+   └── Stripe Payment Gateway
+
+3. Development Workflow
+   ├── TypeScript Type Safety
+   ├── Component-Based Architecture
+   ├── Server-Side Rendering
+   └── API Route Protection
+
+=== Performance & Security ===
+
+1. Optimization
+   ├── Static Generation
+   ├── Image Optimization
+   ├── Code Splitting
+   └── API Caching
+
+2. Security Measures
+   ├── Role-Based Access Control
+   ├── Input Validation
+   ├── XSS Prevention
+   └── API Security
+
+=== Business Logic ===
+
+1. E-commerce
+   ├── Product Management
+   ├── Shopping Cart
+   └── Payment Processing
+
+2. Marketing
+   ├── Campaign Management
+   ├── Email Integration
+   └── Analytics Tracking
+
+3. User Management
+   ├── Role Assignment
+   ├── Permission Control
+   └── Activity Monitoring

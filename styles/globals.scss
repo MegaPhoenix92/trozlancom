@@ -1,0 +1,16 @@
+@use '@carbon/styles';
+@use '@carbon/react';
+@use '@carbon/themes';
+@use '@carbon/grid';
+
+:root {
+  @include carbon--theme();
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--cds-background);
+  color: var(--cds-text-primary);
+  font-family: var(--cds-font-family, -apple-system, system-ui, sans-serif);
+}

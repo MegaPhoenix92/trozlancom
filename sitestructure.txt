@@ -1,0 +1,51 @@
+tree -I 'node_modules|.git|.next|.DS_Store' > sitestructure.txt
+├── README.md
+├── blueprint.txt
+├── components
+│   ├── admin
+│   │   ├── Settings
+│   │   │   └── index.tsx
+│   │   └── UserManagement
+│   │       └── index.tsx
+│   ├── ceo
+│   │   ├── Analytics
+│   │   │   └── index.tsx
+│   │   └── Reports
+│   │       └── index.tsx
+│   ├── layout
+│   │   └── MainLayout.tsx
+│   └── user
+│       ├── Dashboard
+│       │   └── index.tsx
+│       └── Profile
+│           └── index.tsx
+├── mindmap.txt
+├── next-env.d.ts
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── pages
+│   ├── _app.tsx
+│   ├── admin
+│   │   └── index.tsx
+│   ├── ceo
+│   │   └── index.tsx
+│   ├── index.tsx
+│   ├── login.tsx
+│   └── user
+│       └── index.tsx
+├── public
+│   └── assets
+├── sitestructure.txt
+├── src
+├── styles
+│   └── globals.scss
+├── todo.txt
+├── tsconfig.json
+├── types
+└── utils
+    └── auth
+        ├── authService.ts
+        └── useAuth.tsx
+
+23 directories, 26 files
